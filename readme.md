@@ -2,7 +2,7 @@
 a simple utility program for the correct generation of podman secrets when
 using podman play kube
 
-> **Note:** Since the container image based on Python has an enormous consumption of storage (for the fact that we are actually creating a Yaml file here), I have also built the same thing again in Golang. The Go variant as a Docker image requires 2.88 megabytes instead of around 250 megabytes.
+> **Note:** Since the container image based on Python has an enormous consumption of storage (for the fact that we are actually creating a Yaml file here), I have also built the same thing again in Golang. The Go variant as a Docker image requires 2.88 megabytes instead of around 250 megabytes. See [GITHUB:/mwildt/podman-kube-secrets](https://github.com/mwildt/podman-kube-secrets)
 
 ## Usage
 | flag           | description                                                                                                                        |

@@ -1,4 +1,4 @@
-FROM python:3
+FROM registry.suse.com/bci/python:3.11
 
 MAINTAINER mail@maltewildt.de
 
